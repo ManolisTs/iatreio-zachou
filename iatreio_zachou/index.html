@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Ιατρείο Αφοί Ζάχου</title>
+    <!-- Custom css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">LOGO <span>.</span></a>
+            <div class="links" id="nav">
+                <a href="#home">Αρχική</a>
+                <a href="#team">Γιατροί</a>
+                <a href="#service">Υπηρεσίες</a>
+                <a href="#blog">Ιατρείο</a>
+                <a href="#about">Ώρες Λειτουργίας</a>
+                <a href="#contact">Επικοινωνία</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Καλώς Ορίσατε,</h3>
+            <h1>Στο Ιατρείο Μας</h1>
+            <a href="#blog" class="btn">Ιατρείο</a>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+     <!-- Team Section -->
+
+     <section class="team" id="team">
+        <h1 class="heading"> Οι <span>Γιατροί</span></h1>
+        <!-- <p class="heading-description"> Χρόνια αγάπη πάνω στην ιατρική.</p> -->
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <div class="team-content image">
+                        <div class="social image-container">
+                            <span class="title-cv">Βιογραφικό</span>
+                            <div class="cv-section">
+                                <input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn"/>
+                                <label for="modal-btn"><i class="fa fa-user cv"></i></label>
+                                <div class="modal">		
+                                    <div class="modal-wrap">	
+                                        <p class="cv-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                        </p>	          		
+                                    </div>			          		
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/pic-2.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Ζάχου Καλλιόπη MD, PhD</h3>
+                    <p>Αναπληρώτρια Καθηγήτρια Παθολογίας</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <div class="team-content image">
+                        <div class="social image-container">
+                            <span class="title-cv">Βιογραφικό</span>
+                            <div class="cv-section">
+                                <input class="modal-btn" type="checkbox" id="modal-btn2" name="modal-btn"/>
+                                <label for="modal-btn2"><i class="fa fa-user cv"></i></label>
+                                <div class="modal">		
+                                    <div class="modal-wrap">	
+                                        <p class="cv-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                        </p>	          		
+                                    </div>			          		
+                                </div>	
+                            </div>
+                        </div>
+                    </div>
+                    <img src="img/pic-1.png" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Ζάχος Ιωάννης MD, PhD, FEBU</h3>
+                    <p>Επίκουρος Καθηγητής Ουρολογίας</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">Οι <span>Υπηρεσίες μας</span></h1>
+        <!-- <p class="heading-description">Παρέχουμε με συγουριά και ασφάλεια τις καλύτερες υπηρεσίες</p> -->
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-2.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Υπηρεσία 1</h3>
+                    <p>Λίγες πληροφορίες σχετικά με την υπηρεσία. Για παράδειγμα χρόνος ή οτιδήποτε.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-3.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Υπηρεσία 2</h3>
+                    <p>Λίγες πληροφορίες σχετικά με την υπηρεσία. Για παράδειγμα χρόνος ή οτιδήποτε.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-4.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Υπηρεσία 3</h3>
+                    <p>Λίγες πληροφορίες σχετικά με την υπηρεσία. Για παράδειγμα χρόνος ή οτιδήποτε.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-5.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Υπηρεσία 4</h3>
+                    <p>Λίγες πληροφορίες σχετικά με την υπηρεσία. Για παράδειγμα χρόνος ή οτιδήποτε.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/menu-6.png" alt="">
+                </div>
+                <div class="service-content">
+                    <h3>Υπηρεσία 5</h3>
+                    <p>Λίγες πληροφορίες σχετικά με την υπηρεσία. Για παράδειγμα χρόνος ή οτιδήποτε.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Το <span>Ιατρείο μας</span></h1>
+        <!-- <p class="heading-description">Ρίξτε μία ματιά στο χώρο μας</p> -->
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post1.jpg" alt="">
+                </div>
+                <div class="blog-content">
+                    <h1>Χώρος Αναμονής</h1>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post2.jpg" alt="">
+                </div>
+                <div class="blog-content">
+                    <h1>Παθολογικό</h1>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/post3.jpg" alt="">
+                </div>
+                <div class="blog-content">
+                    <h1>Ουρολογικό</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+
+
+    <!-- Time Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1>Ώρες Λειτουργίας</h1>
+                <h3>Κατόπιν Ραντεβού.</h3>
+                <div class="hours">
+                    <table class="opening-days">
+                      <tbody>
+                        <tr>
+                          <td class="week-day">Δευτέρα</td>
+                          <td>17:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Τρίτη</td>
+                          <td>17:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Τετάρτη</td>
+                          <td>17:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Πέμπτη</td>
+                          <td>17:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Παρασκευή</td>
+                          <td>17:00 - 21:00</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Σάββατο</td>
+                          <td>Κλειστά</td>
+                        </tr>
+                        <tr>
+                          <td class="week-day">Κυριακή</td>
+                          <td>Κλειστά</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Time Section End-->
+
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Επικοινωνήστε <span>Μαζί μας</span></h1>
+        <!-- <p class="heading-description">Είμαστε εδώ για εσάς οποιαδήποτε στιγμή</p> -->
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Στείλτε email οποιαδήποτε στιγμή</span></h2>
+                </div>
+                <div class="contact-email">
+                    <p>zachoukalliopi@gmail.com</p>
+                    <p>johnzac@yahoo.gr</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <a id="map" 
+                        href="https://www.google.com/maps/place/%CE%9C%CE%B1%CE%BD%CF%89%CE%BB%CE%AC%CE%BA%CE%B7+13,+15,+%CE%9B%CE%AC%CF%81%CE%B9%CF%83%CE%B1+412+22/@39.6393575,22.4137843,17z/data=!3m1!4b1!4m6!3m5!1s0x13588896da0ac08b:0x8fbb85c7535eb185!8m2!3d39.6393575!4d22.4137843!16s%2Fg%2F11pcm0mfsn?entry=ttu"
+                        target="_blank">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h2>Διεύθυνση <br> <span>
+                            Βρείτε Μας</span>
+                        </h2>
+                    </div>
+                </a>
+                <div>
+                    <p>Μανωλάκη 13-15, Λάρισα 41222, Ελλάδα</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Τηλεφωνική Επικοινωνία <br> <span>Καλέστε Μας</span></h2>
+                </div>
+                <div class="contact-number">
+                    <p>Ζάχου Καλλιόπη: 6974796787</p>
+                    <p>Ζάχος Ιωάννης: 6937252098</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>Ακολουθήστε μας</h3>
+                <p>Επικοινωνήστε μαζί μας:</p>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section End -->
+    <a id="button"></a>
+    <!-- Back to top-->
+    
+    <!-- End -->
+    <script>
+        var btn = $('#button');
+
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                btn.addClass('show');
+            } else {
+                btn.removeClass('show');
+            }
+        });
+
+        btn.on('click', function(e) {
+            e.preventDefault();
+            $('html, body').animate({scrollTop:0}, '300');
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
