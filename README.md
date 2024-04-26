@@ -1,4 +1,3 @@
-Iatreio Zachou Landing Page
 Welcome to the Iatreio Zachou Landing Page! This project is a simple yet informative promotional landing page designed for showcasing the services and facilities of Iatreio Zachou, a doctor's office dedicated to providing quality healthcare. Developed using HTML, CSS, Bootstrap, and JavaScript, this landing page offers a seamless browsing experience for visitors seeking medical assistance or information.
 
 Features:
@@ -9,11 +8,13 @@ Office Section: Explore our modern and welcoming office space through a gallery 
 Office Hours Section: Find information about our office hours for scheduling appointments.
 Contact Us Section: Get in touch with us via email, find directions to our location, and access contact information conveniently.
 Footer: Connect with us on social media platforms for updates and promotions.
+
 Technologies Used:
 HTML
 CSS
 Bootstrap
 JavaScript
+
 How to Use:
 Clone this repository to your local machine.
 Open the index.html file in your preferred web browser.
