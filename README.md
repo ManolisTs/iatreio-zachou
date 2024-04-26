@@ -22,11 +22,8 @@ Explore the various sections of the Iatreio Zachou Landing Page.
 Feedback and Contributions:
 Your feedback is invaluable to us! If you have any suggestions, find any bugs, or would like to contribute to the project, feel free to open an issue or submit a pull request.
 
-License:
-This project is licensed under the MIT License - see the LICENSE file for details.
+Credits: This project was created by Tsiomis Emmanouil. Special thanks to Bootstrap for providing the framework for responsive design.
 
 Feel free to use, modify, and distribute the code for your own projects.
 
-Credits:
-This project was created by Tsiomis Emmanouil. Special thanks to Bootstrap for providing the framework for responsive design.
-
+Visit the website here: https://iatreio-zachou.vercel.app/#contact
